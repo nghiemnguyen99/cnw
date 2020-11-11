@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ok {
+            border-left: solid 3px red;
+            border-top: solid 3px red;
+            border-bottom: solid 0.5px;
+            border-right: solid 0.5px;
+            position: absolute;
+            right: 25%;
+        }
+
+        div .nghiem {
+            width: 100%;
+            height: 100%;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        div.scroll {
+            margin-top: 50px;
+            width: 60%;
+            height: 110px;
+            overflow: scroll;
+
+        }
+
+        #button {
+            margin-top: 40px;
+            position: relative;
+            left: 0px;
+            top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Business Registration</h1>
+    <div style="width: 40%; height: 70%; float: left">
+        <span>Click on one, or control-click on mutiple categories</span>
+        <form>
+            <div class="scroll">
+                <pre>Automotive Parts and Supplies</pre>
+                <pre>Seafood Stores and Restaurents</pre>
+                <pre>Health And Breaty</pre>
+            </div>
+
+            <input id="button" type="submit" value="Add Business">
+        </form>
+
+    </div>
+
+    <div style="width: 50%; height: 70%; float: left">
+        <form>
+            <div class="nghiem">
+                Business Name:
+                <input class="ok" type="text">
+            </div>
+            <div class="nghiem">
+                Address:
+                <input class="ok" type="text">
+            </div>
+            <div class="nghiem">
+                City:
+                <input class="ok" type="text">
+            </div>
+            <div class="nghiem">
+                Telephone:
+                <input class="ok" type="text">
+            </div>
+            <div class="nghiem">
+                URL:
+                <input class="ok" type="text">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
